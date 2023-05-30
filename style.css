@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Outfit:wght@400;700&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'inter', 'sans-serif';
+}
+
+/*>>>>>>>>>>>>> HEADER<<<<<<<<<<<<<<<<<<*/
+
+header{
+    padding-top: 32px;
+    padding-left: 95px;
+    padding-right: 28px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .logo{
+    margin-right: 28px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #C92071;
+    gap: 7px;
+}
+
+.imagem-logo{
+    width: 33px;
+}
+
+header .pesquisa{
+    flex: 1;
+    margin-right: 45px;
+    height: 60px;
+    background-color: #4747470f;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header .pesquisa input{
+    width: 95%;
+    height: 100%;
+    background-color: transparent;
+}
+
+header .pesquisa a{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .pesquisa a i{
+    font-size: 25px;
+    color: #4747474c;
+}
+
+header .acoes{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+header .header-cadastro{
+    margin-right: 26px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #474747;
+    text-decoration: underline;
+    letter-spacing: 0.75px;
+}
+
+header .acoes .header-btn-entrar{
+    width: 112px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'inter';
+    border-radius: 8px;
+    background-color: #C92071;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgaem-carrinho{
+    width: 33px;
+    margin-right: 38px;
+    margin-left: 66px;
+    
+}
+
+header nav{
+    width: 100%;
+    margin-top: 40px;
+    margin-left: -5px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 32px;
+}
+
+header nav ul li a{
+    color: #474747;
+    font-size: 15.5px;
+    letter-spacing: 1px;
+}
+
+header nav ul li a.active{
+    color: #C92071;
+    font-weight: 700;
+    border-bottom: 2px solid #C92071; /*Depois ver porque nao ta pegando o after para colocar como after*/
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>termino do header<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>MAIN<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+#banner-inicio{
+    height: 650px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.banner-inicio-text{
+    height: 345px;
+    width: 510px;
+    padding-top: 110px;
+    padding-left: 95px;
+    padding-right: 28px;
+}
+
+.banner-inicio-text span{
+    display: flex; /*saber porque o margin só funciona se esse item tiver como display flex, porque display inline e bloque nao pega margin top nem bottom só right e left? */
+    font-size: 15px;
+    font-weight: 700;
+    color: #F6AA1C;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+
+    
+}
+
+.banner-inicio-text .titulo{
+    display: flex;
+    height: 138px;
+    width: 530px;
+    font-size: 62px;
+    font-family: 'inter';
+    margin-bottom: 20px;
+    font-weight: 900;
+    line-height: 65px;
+    color: black;
+}
+
+.banner-inicio-fogo{
+    margin-top: 50px;
+    height: 70px;
+    width: 50px;
+    position: absolute;
+    left: 480px;
+}
+
+.banner-inicio-text p{
+    width: 500px;
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    color: #474747;
+
+}
+
+.banner-inicio-btn {
+    width: 213px;
+    height: 46px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: #C92071;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    margin-left: -4px;
+}
+
+.banner-inicio-img{
+    height: 424px;
+    position: absolute;
+    top: 90px;
+    right: 833px;
+}
+
+.img-tenis{
+    display: flex;
+    height: 160%;
+    position: absolute;
+    left: -68px;
+    top: -118px;
+}
+
+.img-ornament{
+    position: absolute;
+    width: 135px;
+    top: 0px;
+    right: -820px;
+}
+
+.banner-inicio-bolinhas{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-left: 9px;
+}
+
+.div1{
+    height: 11px;
+    width: 11px;
+    background-color: #C92071;
+    border-radius: 100%;
+}
+
+.div2{
+    height: 11px;
+    width: 11px;
+    background-color: rgb(200, 197, 197);
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#colecao-destaque{
+    height: 280px;
+}
+
+#produtos-em-alta{
+
+}
+
+#banner-final{
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>> termino do main <<<<<<<<<<<<<<<<<<<<<<*/
+
+
+footer{
+    background-color: #1f1f1f;
+    padding: 72px 100px 20px 92px;
+}
+
+footer .container{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#1f1f1f;
+}
+
+footer .footer-box1{
+    color: #FFFFFF;
+    width: 304px;
+}
+
+footer .footer-box1 h3{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    gap: 7px;
+    margin-bottom: 40px;
+    margin-left: 2px;
+}
+
+footer .footer-box1 p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'inter';
+    line-height: 25px;
+}
+
+footer .footer-box1 ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+footer .footer-box1 a{
+    color: #FFFFFF;
+    font-size: 22px;
+    /* border: 1px solid red; */
+}
+
+footer .footer-box2{
+    color: #FFFFFF;
+    /* border: 1px solid red; */
+    width: 220px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+footer .footer-box2 h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'inter';
+    margin-right: 42px;
+    margin-bottom: 30px;
+}
+
+footer .footer-box2 li{
+    margin-bottom: 16px;
+    font-size: 15px;
+    margin-right: 9px;
+}
+
+footer .footer-box3{
+    
+    color: #FFFFFF;
+    /* border: 1px solid red; */
+    width: 164px;
+    height: 225px;
+}
+
+footer .footer-box3 h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'inter';
+}
+
+footer .footer-box3 ul{
+    margin-top: 30px;
+}
+
+footer .footer-box3 ul li{
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+footer .footer-box4{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #FFFFFF;
+    width: 202px;
+    height: 225px;  /*porque se eu colocar 100% ele nao preenche o tamanho da div container?*/
+    /* border: 1px solid red; */
+}
+
+footer .footer-box4 h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'inter';
+}
+
+footer .footer-box4 address{
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+footer .footer-box4 p{
+    margin-top: 18px; 
+}
+
+footer .footer-box5{
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+hr{
+    height: 1px;
+    background-color: rgba(95, 95, 95, 0.597);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
